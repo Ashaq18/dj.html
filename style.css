@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+header{
+    background: url(dj22.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+ul{
+    float: right;
+    margin-top: 25px;
+    padding-right: 90px;
+    
+}
+.header {
+    margin-top: 20px;
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    margin-bottom: 17px;
+    color:violet;
+    padding: 5px 20px;
+    border: 1px solid violet;
+    text-align: center;
+    background-color: black;
+}
+ul li a:hover{
+    background-color: blueviolet;
+    
+}
+.logo h1{
+    position: absolute;
+    margin-top: 20PX;
+    font-family: sans-serif;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    
+    
+
+}
+
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+
+}
+.heading h1{
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 25px;
+    position: relative;
+}
+.heading p{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 35px;
+}
+.content img{
+    margin-right: 290px;
+}
+
+.content  p{
+    position: relative;
+    left:300px;
+    bottom:200px;
+
+    
+
+}
+.photo{
+    position: relative;
+    display: flex;
+}
+.symbols{
+    display: flex;
+    gap: 20px;
+
+}
+.symbols{
+    position: absolute;
+    margin-bottom: 40px;
+    /* padding-left: 10px; */
+    margin-left: 350px;
+    margin-top: -150px;
+
+}
+
+.symbols li{
+    list-style: none;
+    padding-left: 10px;
+    font-size: 10px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
